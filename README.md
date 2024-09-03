@@ -1,5 +1,6 @@
-# student-project-
-student project with react and spring boot
+Spring Boot,PostgreSQL kullanarak login, edit, silme, kaydetme ve raporlama işlemlerini içeren web projesi.
+
+Spring Boot -> Veri tabanı tablolarıma uygun model sınıflarımı oluşturduktan sonra controller,service ve repository sınıflarımı kodlarımı java dilinde ve Intellij IDEA kullanarak kodladım.
 
 
 ![image](https://github.com/user-attachments/assets/f731abfb-e0b9-4b50-a2e5-035e1cc5772e)

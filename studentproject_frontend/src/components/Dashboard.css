@@ -1,0 +1,218 @@
+.dashboard {
+    padding: 2rem;
+    background-color: #d3dfe9;
+}
+
+/* add new student*/
+.dashboard h3 {
+
+    color: black;
+    font-weight: bold;
+}
+
+/*student info*/
+.dashboard h2 {
+    color: black;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #cdd9eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dashboard tr:nth-child(even) {
+    background-color: #95accf;
+}
+
+/*tablo içi data ayarlaması */
+.dashboard th,
+.dashboard td {
+    border: transparent;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: solid bold;
+    color: black
+}
+
+.dashboard th {
+    /*table üst kısım*/
+    background-color: #43537f;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.dashboard .delete-button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.dashboard .delete-button:hover {
+    background-color: transparent;
+}
+
+.dashboard .edit-button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.dashboard .edit-button:hover {
+    color: #ffffff;
+}
+
+.dashboard .add-button {
+    background-color: #1bab3d;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-right: auto;
+}
+
+.dashboard .add-button:hover {
+    background-color: #218838;
+}
+
+.dashboard .add-button-container {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.add-student-form {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #88bef5;
+    border-radius: 18px;
+}
+
+.add-student-form h3 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.add-student-form input {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.add-student-form input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    color: black;
+}
+
+.pagination li {
+    display: inline;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: black;
+}
+
+.pagination li.active {
+    background-color: rgb(146, 164, 210);
+    color: white;
+}
+
+.pagination li:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+.prev-link,
+.next-link {
+    color: black;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table headers */
+th {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for search inputs */
+.search-input {
+    display: block;
+    width: 90%;
+    padding: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Style for table rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Container for the table and export button */
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.export-button-container {
+    text-align: right;
+}
+
+.export-button {
+    background-color: #c93225;
+    font-weight: bold;
+}
+
+/* Excel butonu */
+.dashboard button {
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.export-button:hover {
+    background-color: #a92504;
+}

@@ -1,0 +1,70 @@
+.edit-student-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.edit-student-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.edit-student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.edit-student-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.update-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    background-color: #28a745;
+    color: white;
+}
+
+.update-button:hover {
+    background-color: #218838;
+}
+
+.edit-cancel-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    background-color: #ec273e;
+    color: white;
+}
+
+.edit-cancel-button:hover {
+    background-color: #bd1c1e;
+}
